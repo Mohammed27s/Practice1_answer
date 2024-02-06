@@ -1,0 +1,25 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        
+        char contain = 'H';
+        int num = 1;
+        boolean checking = true;
+        
+        if(contain != num)
+        {
+            
+            System.out.println(checking);
+            
+        }
+        else 
+        {
+            System.out.println("This is a digit");
+        }
+        
+        
+        
+        
+        
+       
+    }
+}
