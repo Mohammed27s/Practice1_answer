@@ -1,0 +1,15 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        int exam1 = 5;
+        int exam2 = 8;
+        int exam3 = 10;
+
+        int total = exam1 + exam2 + exam3;
+        float total_avg = (float) total / 3;
+
+        // Format the total_avg to display with two decimal places
+        String formattedAvg = String.format("%.2f", total_avg);
+
+        System.out.println("the a average of three exam scores :" + formattedAvg);
+    }
+}
