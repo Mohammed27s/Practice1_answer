@@ -1,0 +1,13 @@
+class HelloWorld {
+    // Declare PI as a constant
+    public static final double PI = 3.14;
+
+    public static void main(String[] args) {
+        int radius = 5;
+
+        // Calculate circumference using the constant PI
+        double circumference = 2 * PI * radius;
+
+        System.out.println("Circumference: " + circumference);
+    }
+}
