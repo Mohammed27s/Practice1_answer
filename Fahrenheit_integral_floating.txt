@@ -1,0 +1,19 @@
+class HelloWorld {
+    public static void main(String[] args) {
+        
+       double temperatureInCelsius = 45.087;
+       
+       int Fahrenheit_integral = (int) temperatureInCelsius;
+       float Fahrenheit_float = (float) temperatureInCelsius;
+       
+       
+       
+       System.out.println("The Fahrenheit integral is : "+Fahrenheit_integral);
+       System.out.println("The Fahrenheit float is : "+Fahrenheit_float);
+       
+       
+       
+        
+       
+    }
+}
